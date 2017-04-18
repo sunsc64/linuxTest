@@ -6,13 +6,11 @@ echo test!
 #2. 输出变量
 
 name=ssc
-
 echo $name
 
 #3. 配合read命令使用,读取变量并打印
 
 read name
-
 echo hello ${name}!
 
 #4. echo默认换行，开启不换行
